@@ -1,0 +1,104 @@
+/* genel yapı */
+form {
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+
+
+
+/* logonun olduğu kısım */
+
+#glogo {
+    width: 351px;
+    height: 113px;
+    aspect-ratio: auto 351 / 113;
+}
+
+#topbox {
+    display: block;
+    text-align: -webkit-center;
+}
+
+/* arama motorunun olduğu kutu */
+
+#midbox {
+    width: 863.838px;
+    height: 62.400px;
+    background-color: #EEEEEE;
+    display: block;
+    text-align: -webkit-center;
+    width: 90%;
+    margin-left: 75px;
+}
+
+/* tüm kutuları kapsar */
+#boxes {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+     }
+
+/* Yeşil kutular */
+#greenbox1 {
+    width: 37%;
+    background-color: rgb(126, 229, 218);
+    display: table-cell;   
+    width: 477.175px;
+    height: 46.200px;
+    display: block;
+    text-align: -webkit-center;
+    margin-left: 75px;
+    margin-top: 1px;
+    padding: 1%; 
+    float: left;  
+    
+}
+#greenbox2 {
+    width: 37%;
+    background-color: rgb(112, 204, 194);
+    display: table-cell;
+    width: 260.175px;
+    height: 66.200px;
+    display: block;
+    text-align: -webkit-center;
+    margin-left:1px;
+    margin-top: 1px;
+    padding: 5px;   
+    font-size: small;
+    float: left;
+    
+    
+    
+}
+#greenbox3 {
+    width: 37%;
+    background-color: rgb(98, 179, 170);
+    display: table-cell;
+    width: 588.175px;
+    height: 76.200px;
+    display: block;
+    text-align: -webkit-center;
+    margin-left: 855px;
+    margin-top: 1px;
+    padding: 25 50;
+       
+    font-size: small;
+    float: inherit;
+    
+}
+
+/* footer */
+p {
+    text-align: center;
+    font-size: small;
+    margin-top: 18px;
+}
